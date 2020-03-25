@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"gitlab.com/fenrirunbound/pipeline-queue/internal/client"
+	"github.com/pprasanthi/pipeline-queue/internal/client"
 )
 
 // AccessToken GitLab API access token

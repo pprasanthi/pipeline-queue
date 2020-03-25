@@ -1,6 +1,6 @@
 FROM golang:1.10 as Builder
 
-ENV PROJECT /go/src/gitlab.com/fenrirunbound/pipeline-queue
+ENV PROJECT /go/src/gitlab.com/pprasanthi/pipeline-queue
 ADD . $PROJECT
 WORKDIR $PROJECT
 

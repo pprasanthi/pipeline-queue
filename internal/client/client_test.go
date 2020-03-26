@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
-	"gitlab.com/fenrirunbound/pipeline-queue/internal/client"
+	"github.com/pprasanthi/pipeline-queue/internal/client"
 )
 
 type ClientTestSuite struct {

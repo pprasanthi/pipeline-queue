@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.com/fenrirunbound/pipeline-queue/cmd"
+	"github.com/pprasanthi/job-queue/cmd"
 )
 
 func main() {

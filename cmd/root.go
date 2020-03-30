@@ -78,6 +78,9 @@ When the job becomes the oldest running one, it will cease to block and will exi
 			singletonJobs := SingletonJobs
 			jobId := strconv.Itoa(JobID)
 
+			if len(defaultSingletonJobs)<=0 {
+				errorExit(fmt.Errorf("SingletonJobs parameter should not be blank"))
+			}
 			fmt.Println("Jobs that should not run concurrently are: ",SingletonJobs)
 			areWeFirst := false
 
